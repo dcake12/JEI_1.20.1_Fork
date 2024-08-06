@@ -52,7 +52,6 @@ public class OutputSlotTooltipCallback implements IRecipeSlotTooltipCallback {
 				if (!recipeModId.equals(ingredientModId)) {
 					String modName = modIdHelper.getFormattedModNameForModId(recipeModId);
 					MutableComponent recipeBy = Component.translatable("jei.tooltip.recipe.by", modName);
-					tooltip.add(recipeBy.withStyle(ChatFormatting.GRAY));
 				}
 			}
 		}
@@ -83,7 +82,6 @@ public class OutputSlotTooltipCallback implements IRecipeSlotTooltipCallback {
 				if (!recipeModId.equals(ingredientModId)) {
 					String modName = modIdHelper.getFormattedModNameForModId(recipeModId);
 					MutableComponent recipeBy = Component.translatable("jei.tooltip.recipe.by", modName);
-					tooltip.add(recipeBy.withStyle(ChatFormatting.GRAY));
 				}
 			}
 		}
